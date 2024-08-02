@@ -66,12 +66,16 @@
 
 }
 
-.nav2 button{
+.nav2  button{
     width: 90px;
     height: 30px;
     border-radius: 15px;
     background-color: transparent;
    
+}
+
+#i1 {
+    display: none;
 }
 .nav2 #btn{
     width: 100px;
@@ -336,4 +340,444 @@
 
 }
 
+
+.maincontain6{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+.line1{
+    width:15%;
+    height: auto;
+    margin-bottom: 100px;
+    margin-left: 30px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.line1 h6 {
+    font-size: 1em;
+    margin-bottom: 10px;
+  
+}
+
+.line1 a{
+    text-decoration: none;
+    color: gray;
+    margin-top: 20px;
+   
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   
+}
+
+
+.line2{
+    width:15%;
+    height: auto;
+    margin-bottom: 110px;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+
+
+.line2 h6 {
+    font-size: 1em;
+    margin-bottom: 10px;
+  
+}
+
+.line2 a{
+    text-decoration: none;
+    color: gray;
+    margin-top: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   
+}
+
+
+
+.line3{
+    width:15%;
+    height: auto;
+    margin-bottom: 210px;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+
+
+.line3 h6 {
+    font-size: 1em;
+    margin-bottom: 10px;
+  
+}
+
+.line3 a{
+    text-decoration: none;
+    color: gray;
+    margin-top: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   
+}
+
+
+.line4{
+    width:15%;
+    height: auto;
+    margin-bottom: 170px;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+
+
+.line4 h6 {
+    font-size: 1em;
+    margin-bottom: 10px;
+  
+}
+
+.line4 a{
+    text-decoration: none;
+    color: gray;
+    margin-top: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   
+}
+
+
+
+.line5{
+    width:15%;
+    height: auto;
+    margin-bottom: 120px;
+    margin-right: 200px;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+
+
+.line5 h6 {
+    font-size: 1em;
+    margin-bottom: 10px;
+  
+}
+
+.line5 a{
+    text-decoration: none;
+    color: gray;
+    margin-top: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   
+}
+
+
+.icons-section{
+    width: 100%;
+    height: auto;
+    padding-inline: 50px;
     
+}
+
+
+.icons{
+    width: 40%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.fa-brands {
+    font-size: 1.7em;
+    margin-left: 10px;
+    
+}
+
+.ancar{
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.ancar a {
+    margin-bottom: 20px;
+    text-decoration: none;
+    color:black;
+}
+
+.ancar a:hover {
+    text-decoration: underline;
+}
+
+.icons-section p {
+    font-size: 0.8;
+    color: gray;
+}
+
+
+
+/* reponsive css code */
+
+
+@media (max-width : 480px){
+
+
+    .main-contaner {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .navbar{
+        width: 100%;
+        height:auto ;
+
+    }
+    
+    .nav1 h2{
+        display: none;
+    }
+    .nav2 i {
+        display: none;
+    }
+
+    .nav1 img {
+        width: 30%;
+    }
+
+    
+    .nav2 h3 {
+        display: none;
+    }
+
+    
+    .nav2 span {
+        display: none;
+    }
+
+
+    #i1 {
+        display: inline;
+        font-size: 1.4em;
+    }
+
+
+    .maincontain1 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .left{
+        width: 100%;
+        height: auto;
+      
+    }
+
+    .right {
+        width: 100%;
+        height: auto;
+        position: relative;
+        bottom: 4px;
+    }
+
+    .right h2 {
+        font-size: 1.4em;
+      
+    }
+
+    .right p {
+        font-size: 1em;
+    }
+
+    
+    .maincontain2 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .left2{
+        width: 100%;
+        height: auto;
+        
+      
+    }
+
+    .left2 h1 {
+        font-size: 2em;
+        margin-top: 30px;
+      
+    }
+    .left2 h1 br {
+        display: none;
+    }
+
+    .left2 p {
+        font-size: 1.3em;
+    }
+     
+    .left2 button {
+        margin-bottom: 40px;
+    }
+
+    .right2 {
+        width: 100%;
+        height: auto;
+       
+    }
+
+    
+    .maincontain3 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .left3{
+        width: 100%;
+        height: auto;
+      
+    }
+
+    .right3 {
+        width: 100%;
+        height: auto;
+        position: relative;
+        bottom: 4px;
+    }
+
+    .right3 h2 {
+        font-size: 1.4em;
+        margin-top: 30px;
+      
+    }
+
+    .right3 p {
+        font-size: 1em;
+        margin-top: 20px;
+        margin-bottom: 20px;
+       
+    }
+
+    .right3 button {
+        margin-bottom: 80px;
+    }
+
+    
+    .maincontain4 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .left4{
+        width: 100%;
+        height: auto;
+        
+      
+    }
+
+    .left4 h1 {
+        font-size: 1.6em;
+        margin-top: 30px;
+      
+    }
+    .left4 h1 br {
+        display: none;
+    }
+
+    .left4 p {
+        font-size: 1em;
+    }
+     
+    .left4 button {
+        margin-bottom: 40px;
+    }
+
+    .right4 {
+        width: 100%;
+        height: auto;
+       
+    }
+
+    .maincontain5 {
+        width: 100%;
+        height: auto;
+    }
+
+    .maincontain5 p {
+        font-size: 0.7em;
+        padding-inline: 30px;
+        text-align: center;
+    }
+
+    
+    .maincontain5 p br {
+        display: none;
+    }
+
+    .maincontain6 {
+        display: none;
+    }
+
+    .icons-section {
+        width: 100%;
+        height: auto;
+    }
+
+    .icons {
+        width: 100%;
+        height: auto;
+    }
+
+    .icons-section hr {
+        display: none;
+    }
+    
+
+
+}
